@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: kumbh sans;
+  min-height: 100vh;
+  font-size: 18px;
+  background-image: url(/images/bg-pattern-top.svg);
+
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 370px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  -webkit-box-shadow: -5px 10px 30px 0px rgba(102, 96, 102, 0.37);
+  -moz-box-shadow: -5px 10px 30px 0px rgba(102, 96, 102, 0.37);
+  box-shadow: -5px 10px 30px 0px rgba(102, 96, 102, 0.37);
+}
+
+.upper {
+  background-image: url(/images/bg-pattern-card.svg);
+  width: 380px;
+  height: 150px;
+}
+.text {
+  background-color: lightblue;
+  max-height: 200px;
+}
+
+.victor {
+  font-weight: 700;
+  padding: 5em;
+  text-align: center;
+  background-color: white;
+  line-height: 37px;
+}
+
+.london,
+.twosix {
+  color: lightgrey;
+}
+
+.followers {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  padding: 1.7rem;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid lightgrey;
+}
+.ph,
+.fol,
+.like {
+  color: lightgrey;
+}
+
+img,
+.image {
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 50px;
+  margin-left: 60px;
+}
